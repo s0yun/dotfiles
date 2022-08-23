@@ -9,6 +9,18 @@ success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being
 [package]
 disabled = true
 
+[username]
+style_user = "yellow bold"
+style_root = "red bold"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format = "[$ssh_symbol](bold blue) on [$hostname](bold red) "
+trim_at = ""
+disabled = false
 
 [directory]
 truncation_length = 8
@@ -17,19 +29,13 @@ truncation_symbol = "…/"
 [docker_context]
 format = "via [🐋 $context](blue bold)"
 
-
-[hostname]
-ssh_only = false
-format =  "[$hostname](bold red) "
-trim_at = ".companyname.com"
-disabled = false
-
 [localip]
 ssh_only = false
 format = "@ [$localipv4](bold purple) "
 disabled = false
 
 [shell]
+powershell_indicator = "_"
 unknown_indicator = "mystery shell"
 style = "cyan bold"
 disabled = false
