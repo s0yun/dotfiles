@@ -20,16 +20,16 @@ format = "via [🐋 $context](blue bold)"
 
 [hostname]
 ssh_only = false
-format =  "on [$hostname](bold red) "
+format =  "[$hostname](bold red) "
 trim_at = ".companyname.com"
 disabled = false
 
 [localip]
 ssh_only = false
-format = "@[$localipv4](bold red) "
+format = "@ [$localipv4](bold purple) "
 disabled = false
 
-[python]
-symbol = "🐍 "
-pyenv_version_name = "false"
-python_binary = "python3"
+[shell]
+unknown_indicator = "mystery shell"
+style = "cyan bold"
+disabled = false
