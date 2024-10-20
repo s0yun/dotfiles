@@ -1,0 +1,55 @@
+{
+    "data/default-unsplash": {
+        "by": "official",
+        "collections": "",
+        "featured": false,
+        "paused": false,
+        "search": "",
+        "topics": "bo8jQKTaE0Y",
+        "timeout": 0
+    },
+    "widget/w33IgSy3pFXY": {
+        "id": "w33IgSy3pFXY",
+        "key": "widget/literature-clock",
+        "order": 2,
+        "display": {
+            "position": "middleCentre"
+        }
+    },
+    "widget/zUj4vhwF6uMl": {
+        "id": "zUj4vhwF6uMl",
+        "key": "widget/search",
+        "order": 3,
+        "display": {
+            "position": "middleCentre"
+        }
+    },
+    "locale": "en-GB",
+    "background": {
+        "id": "default-unsplash",
+        "key": "background/unsplash",
+        "display": {
+            "luminosity": -0.2,
+            "blur": 0
+        }
+    },
+    "widget/default-time": {
+        "id": "default-time",
+        "key": "widget/time",
+        "order": 0,
+        "display": {
+            "position": "middleCentre"
+        }
+    },
+    "widget/default-greeting": {
+        "id": "default-greeting",
+        "key": "widget/greeting",
+        "order": 1,
+        "display": {
+            "position": "middleCentre"
+        }
+    },
+    "focus": false,
+    "timeZone": null,
+    "version": 3
+}
